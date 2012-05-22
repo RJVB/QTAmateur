@@ -1,0 +1,65 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FullscreenFocusedWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                doExportSettings = id; 
+                exportPopupChanged = id; 
+                goBeginning = id; 
+                goBeginningAll = id; 
+                goPosterFrame = id; 
+                goPosterFrameAll = id; 
+                playAll = id; 
+                playAllFullScreen = id; 
+                setAllPBAll = id; 
+                setDoubleSize = id; 
+                setDoubledSize = id; 
+                setDoubledSizeAll = id; 
+                setFullscreen = id; 
+                setFullscreenSize = id; 
+                setHalfSize = id; 
+                setHalvedSize = id; 
+                setHalvedSizeAll = id; 
+                setLoop = id; 
+                setLoopAll = id; 
+                setOneToOne = id; 
+                setPBAll = id; 
+                stepBackwardAll = id; 
+                stepForwardAll = id; 
+                toggleInfoDrawer = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                exportAccessoryView = NSView; 
+                exportInfoField = NSTextField; 
+                exportTypePopup = NSPopUpButton; 
+                fullscreenMovieView = QTAMovieView; 
+                fullscreenWindow = NSWindow; 
+                mCurrentSize = NSTextField; 
+                mDrawer = NSDrawer; 
+                mDuration = NSTextField; 
+                mNormalSize = NSTextField; 
+                mRateDisplay = NSATextField; 
+                mSourceName = NSTextField; 
+                mTimeDisplay = NSATextField; 
+                movieView = QTAMovieView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {goTime = id; }; 
+            CLASS = NSATextField; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextField; 
+        }, 
+        {
+            ACTIONS = {play = id; pplay = id; }; 
+            CLASS = QTAMovieView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = QTMovieView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

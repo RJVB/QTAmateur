@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'QTAmateur' target in the 'QTAmateur' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <QTKit/QTKit.h>
+#endif

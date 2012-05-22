@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C21B0730084378590012A8C7 /* BatchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21B072F084378590012A8C7 /* BatchTableView.m */; };
+		C21B0877084386680012A8C7 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21B0876084386680012A8C7 /* QuickTime.framework */; };
+		C2EA010A08422F6500BBB7B3 /* MAMovieExport.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA010908422F6500BBB7B3 /* MAMovieExport.m */; };
+		C2F091F10840C88200249D8A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F091F00840C88200249D8A /* QTKit.framework */; };
+		C2F093860840E3B400249D8A /* FullscreenFocusedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F093850840E3B400249D8A /* FullscreenFocusedWindow.m */; };
+		C2F094250840EC8500249D8A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F094240840EC8500249D8A /* Carbon.framework */; };
+		C2F0955B08412E0200249D8A /* qtamateur.icns in Resources */ = {isa = PBXBuildFile; fileRef = C2F0955A08412E0200249D8A /* qtamateur.icns */; };
+		C2FFEF26084332E000AAB5DB /* BatchExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFEF25084332E000AAB5DB /* BatchExportController.m */; };
+		C2FFEF2F084337FF00AAB5DB /* ExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFEF2E084337FF00AAB5DB /* ExportManager.m */; };
+		C2FFEFF208433F2000AAB5DB /* ExportManager.nib in Resources */ = {isa = PBXBuildFile; fileRef = C2FFEFF008433F2000AAB5DB /* ExportManager.nib */; };
+		C2FFF009084343C600AAB5DB /* BatchExport.nib in Resources */ = {isa = PBXBuildFile; fileRef = C2FFF007084343C600AAB5DB /* BatchExport.nib */; };
+		C2FFF0670843483700AAB5DB /* NSString+QTMAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFF0660843483700AAB5DB /* NSString+QTMAAdditions.m */; };
+		D60072310BF8A80400E68092 /* NSATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D60072300BF8A80400E68092 /* NSATextField.m */; };
+		D676F0230BC419C8008693F8 /* QTAMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = D676F0220BC419C8008693F8 /* QTAMovieView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		C281EA6E095C4BF300374AB5 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.4_0;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* QTAmateur_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTAmateur_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* QTAmateur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTAmateur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21B072E084378590012A8C7 /* BatchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchTableView.h; sourceTree = "<group>"; };
+		C21B072F084378590012A8C7 /* BatchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchTableView.m; sourceTree = "<group>"; };
+		C21B0876084386680012A8C7 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		C2EA010808422F6500BBB7B3 /* MAMovieExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovieExport.h; sourceTree = "<group>"; };
+		C2EA010908422F6500BBB7B3 /* MAMovieExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovieExport.m; sourceTree = "<group>"; };
+		C2F091F00840C88200249D8A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		C2F093840840E3B400249D8A /* FullscreenFocusedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenFocusedWindow.h; sourceTree = "<group>"; };
+		C2F093850840E3B400249D8A /* FullscreenFocusedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenFocusedWindow.m; sourceTree = "<group>"; };
+		C2F094240840EC8500249D8A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		C2F0955A08412E0200249D8A /* qtamateur.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = qtamateur.icns; sourceTree = "<group>"; };
+		C2FFEF24084332E000AAB5DB /* BatchExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchExportController.h; sourceTree = "<group>"; };
+		C2FFEF25084332E000AAB5DB /* BatchExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchExportController.m; sourceTree = "<group>"; };
+		C2FFEF2D084337FF00AAB5DB /* ExportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportManager.h; sourceTree = "<group>"; };
+		C2FFEF2E084337FF00AAB5DB /* ExportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportManager.m; sourceTree = "<group>"; };
+		C2FFEFF108433F2000AAB5DB /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ExportManager.nib; sourceTree = "<group>"; };
+		C2FFF008084343C600AAB5DB /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BatchExport.nib; sourceTree = "<group>"; };
+		C2FFF0650843483700AAB5DB /* NSString+QTMAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QTMAAdditions.h"; sourceTree = "<group>"; };
+		C2FFF0660843483700AAB5DB /* NSString+QTMAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QTMAAdditions.m"; sourceTree = "<group>"; };
+		D600722F0BF8A80400E68092 /* NSATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSATextField.h; sourceTree = "<group>"; };
+		D60072300BF8A80400E68092 /* NSATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSATextField.m; sourceTree = "<group>"; };
+		D631885A0BEF2FB70053891E /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en_GB; path = en_GB.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D631885B0BEF2FC80053891E /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en_GB; path = en_GB.lproj/BatchExport.nib; sourceTree = "<group>"; };
+		D631885D0BEF2FE00053891E /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en_GB; path = en_GB.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		D631885E0BEF2FE90053891E /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en_GB; path = en_GB.lproj/ExportManager.nib; sourceTree = "<group>"; };
+		D631885F0BEF30080053891E /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en_GB; path = en_GB.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D676F0210BC419C8008693F8 /* QTAMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTAMovieView.h; sourceTree = "<group>"; };
+		D676F0220BC419C8008693F8 /* QTAMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTAMovieView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				C2F091F10840C88200249D8A /* QTKit.framework in Frameworks */,
+				C2F094250840EC8500249D8A /* Carbon.framework in Frameworks */,
+				C21B0877084386680012A8C7 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C21B0876084386680012A8C7 /* QuickTime.framework */,
+				C2F094240840EC8500249D8A /* Carbon.framework */,
+				C2F091F00840C88200249D8A /* QTKit.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* QTAmateur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* QTAmateur */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = QTAmateur;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D676F0210BC419C8008693F8 /* QTAMovieView.h */,
+				D676F0220BC419C8008693F8 /* QTAMovieView.m */,
+				C2FFEF24084332E000AAB5DB /* BatchExportController.h */,
+				C2FFEF25084332E000AAB5DB /* BatchExportController.m */,
+				C2F093840840E3B400249D8A /* FullscreenFocusedWindow.h */,
+				C2F093850840E3B400249D8A /* FullscreenFocusedWindow.m */,
+				C2FFEF2D084337FF00AAB5DB /* ExportManager.h */,
+				C2FFEF2E084337FF00AAB5DB /* ExportManager.m */,
+				C2EA010808422F6500BBB7B3 /* MAMovieExport.h */,
+				C2EA010908422F6500BBB7B3 /* MAMovieExport.m */,
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				C2FFF0650843483700AAB5DB /* NSString+QTMAAdditions.h */,
+				C2FFF0660843483700AAB5DB /* NSString+QTMAAdditions.m */,
+				C21B072E084378590012A8C7 /* BatchTableView.h */,
+				C21B072F084378590012A8C7 /* BatchTableView.m */,
+				D600722F0BF8A80400E68092 /* NSATextField.h */,
+				D60072300BF8A80400E68092 /* NSATextField.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* QTAmateur_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2F0955A08412E0200249D8A /* qtamateur.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				C2FFF007084343C600AAB5DB /* BatchExport.nib */,
+				C2FFEFF008433F2000AAB5DB /* ExportManager.nib */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* QTAmateur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28032FF088E2F2900BF3877 /* Build configuration list for PBXNativeTarget "QTAmateur" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+				C281EA6E095C4BF300374AB5 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = QTAmateur;
+			productInstallPath = "$(HOME)/Applications";
+			productName = QTAmateur;
+			productReference = 8D15AC370486D014006FF6A4 /* QTAmateur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C2803303088E2F2900BF3877 /* Build configuration list for PBXProject "QTAmateur-106" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en_GB,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* QTAmateur */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* QTAmateur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
+				8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				C2F0955B08412E0200249D8A /* qtamateur.icns in Resources */,
+				C2FFEFF208433F2000AAB5DB /* ExportManager.nib in Resources */,
+				C2FFF009084343C600AAB5DB /* BatchExport.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				C2F093860840E3B400249D8A /* FullscreenFocusedWindow.m in Sources */,
+				C2EA010A08422F6500BBB7B3 /* MAMovieExport.m in Sources */,
+				C2FFEF26084332E000AAB5DB /* BatchExportController.m in Sources */,
+				C2FFEF2F084337FF00AAB5DB /* ExportManager.m in Sources */,
+				C2FFF0670843483700AAB5DB /* NSString+QTMAAdditions.m in Sources */,
+				C21B0730084378590012A8C7 /* BatchTableView.m in Sources */,
+				D676F0230BC419C8008693F8 /* QTAMovieView.m in Sources */,
+				D60072310BF8A80400E68092 /* NSATextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+				D631885F0BEF30080053891E /* en_GB */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = MyDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+				D631885D0BEF2FE00053891E /* en_GB */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+				D631885A0BEF2FB70053891E /* en_GB */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C2FFEFF008433F2000AAB5DB /* ExportManager.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FFEFF108433F2000AAB5DB /* English */,
+				D631885E0BEF2FE90053891E /* en_GB */,
+			);
+			name = ExportManager.nib;
+			sourceTree = "<group>";
+		};
+		C2FFF007084343C600AAB5DB /* BatchExport.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FFF008084343C600AAB5DB /* English */,
+				D631885B0BEF2FC80053891E /* en_GB */,
+			);
+			name = BatchExport.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2803300088E2F2900BF3877 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QTAmateur_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = QTAmateur;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		C2803301088E2F2900BF3877 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QTAmateur_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = (
+					"-ftracer",
+					"-mcpu=G4",
+				);
+				OTHER_LDFLAGS = "-bind_at_load";
+				PREBINDING = NO;
+				PRODUCT_NAME = QTAmateur;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		C2803302088E2F2900BF3877 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QTAmateur_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QTAmateur;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		C2803304088E2F2900BF3877 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_STRICT_ALIASING = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IBC_STRIP_NIBS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		C2803305088E2F2900BF3877 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ALTIVEC_EXTENSIONS = NO;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_STRICT_ALIASING = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IBC_STRIP_NIBS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = (
+					"-ftracer",
+					"-march=core2",
+				);
+				OTHER_LDFLAGS = "-bind_at_load";
+				SDKROOT = macosx10.5;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		C2803306088E2F2900BF3877 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Default;
+		};
+		D6F7019C1124745D00A91D05 /* Development Shadow */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QTAmateur_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = QTAmateur;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = "Development Shadow";
+		};
+		D6F7019D1124745D00A91D05 /* Development Shadow */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					SHADOW,
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = "Development Shadow";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28032FF088E2F2900BF3877 /* Build configuration list for PBXNativeTarget "QTAmateur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2803300088E2F2900BF3877 /* Development */,
+				D6F7019C1124745D00A91D05 /* Development Shadow */,
+				C2803301088E2F2900BF3877 /* Deployment */,
+				C2803302088E2F2900BF3877 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		C2803303088E2F2900BF3877 /* Build configuration list for PBXProject "QTAmateur-106" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2803304088E2F2900BF3877 /* Development */,
+				D6F7019D1124745D00A91D05 /* Development Shadow */,
+				C2803305088E2F2900BF3877 /* Deployment */,
+				C2803306088E2F2900BF3877 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

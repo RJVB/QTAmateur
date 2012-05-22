@@ -1,0 +1,15 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {doExport = id; doSettings = id; typePopupChanged = id; }; 
+            CLASS = BatchExportController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoField = NSTextField; tableView = NSTableView; typePopup = NSPopUpButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = BatchTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

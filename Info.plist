@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>gif</string>
+				<string>m1s</string>
+				<string>MQV</string>
+				<string>m75</string>
+				<string>mqv</string>
+				<string>qif</string>
+				<string>m1v</string>
+				<string>3g2</string>
+				<string>bwf</string>
+				<string>pls</string>
+				<string>qtpf</string>
+				<string>cel</string>
+				<string>gsm</string>
+				<string>dvd</string>
+				<string>mpa</string>
+				<string>qht</string>
+				<string>mid</string>
+				<string>jp2</string>
+				<string>m15</string>
+				<string>dib</string>
+				<string>amr</string>
+				<string>adts</string>
+				<string>ulw</string>
+				<string>aac</string>
+				<string>sdp</string>
+				<string>atr</string>
+				<string>mpg</string>
+				<string>skin</string>
+				<string>dif</string>
+				<string>smil</string>
+				<string>fpx</string>
+				<string>png</string>
+				<string>m4a</string>
+				<string>pdf</string>
+				<string>dat</string>
+				<string>wav</string>
+				<string>m4b</string>
+				<string>MOV</string>
+				<string>rtsp</string>
+				<string>bmp</string>
+				<string>qti</string>
+				<string>3gp2</string>
+				<string>sdv</string>
+				<string>mov</string>
+				<string>pct</string>
+				<string>m1a</string>
+				<string>swa</string>
+				<string>mpm</string>
+				<string>jpeg</string>
+				<string>sd2</string>
+				<string>pntg</string>
+				<string>flc</string>
+				<string>cdda</string>
+				<string>au</string>
+				<string>swf</string>
+				<string>pict</string>
+				<string>m3u</string>
+				<string>qtif</string>
+				<string>jpe</string>
+				<string>smf</string>
+				<string>avi</string>
+				<string>tif</string>
+				<string>vfw</string>
+				<string>jpg</string>
+				<string>mpeg</string>
+				<string>aif</string>
+				<string>fli</string>
+				<string>aifc</string>
+				<string>smi</string>
+				<string>mpv</string>
+				<string>psd</string>
+				<string>dv</string>
+				<string>3gpp</string>
+				<string>caf</string>
+				<string>m2a</string>
+				<string>kar</string>
+				<string>mac</string>
+				<string>pic</string>
+				<string>m4p</string>
+				<string>mp2</string>
+				<string>amc</string>
+				<string>sml</string>
+				<string>3gp</string>
+				<string>tiff</string>
+				<string>mp3</string>
+				<string>mp4</string>
+				<string>qtz</string>
+				<string>snd</string>
+				<string>qhtm</string>
+				<string>aiff</string>
+				<string>tga</string>
+				<string>m4v</string>
+				<string>sgi</string>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string></string>
+			<key>CFBundleTypeName</key>
+			<string>AllFiles</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>VfW </string>
+				<string>MPG </string>
+				<string>MPGA</string>
+				<string>.WAV</string>
+				<string>amr </string>
+				<string>cdda</string>
+				<string>qhtm</string>
+				<string>mpg4</string>
+				<string>rtsp</string>
+				<string>JPEG</string>
+				<string>PNG </string>
+				<string>WAVE</string>
+				<string>hmov</string>
+				<string>grip</string>
+				<string>DIVX</string>
+				<string>SMIL</string>
+				<string>mxfd</string>
+				<string>sdp </string>
+				<string>sdv </string>
+				<string>GIF </string>
+				<string>PLAY</string>
+				<string>SWFL</string>
+				<string>3gp2</string>
+				<string>jp2 </string>
+				<string>attr</string>
+				<string>8BPS</string>
+				<string>MPG3</string>
+				<string>M1V </string>
+				<string>BMPp</string>
+				<string>MPGa</string>
+				<string>BMPf</string>
+				<string>FLI </string>
+				<string>MPGx</string>
+				<string>TPIC</string>
+				<string>adts</string>
+				<string>qtif</string>
+				<string>3gpp</string>
+				<string>PICT</string>
+				<string>SwaT</string>
+				<string>PNTG</string>
+				<string>amc </string>
+				<string>embd</string>
+				<string>SGI </string>
+				<string>caff</string>
+				<string>ULAW</string>
+				<string>PDF </string>
+				<string>BMP </string>
+				<string>dvc!</string>
+				<string>FPix</string>
+				<string>MPG2</string>
+				<string>.SGI</string>
+				<string>MP3 </string>
+				<string>.SMI</string>
+				<string>MPGV</string>
+				<string>Mp3 </string>
+				<string>M1A </string>
+				<string>GSM </string>
+				<string>MooV</string>
+				<string>PNGf</string>
+				<string>Sd2f</string>
+				<string>MPEG</string>
+				<string>DAVI</string>
+				<string>AIFC</string>
+				<string>Midi</string>
+				<string>MPGv</string>
+				<string>GIFf</string>
+				<string>TIFF</string>
+				<string>AIFF</string>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>MyDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>QTAmateur</string>
+	<key>CFBundleIconFile</key>
+	<string>qtamateur</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.mikeash.QTAmateur</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>TVOD</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1b3</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

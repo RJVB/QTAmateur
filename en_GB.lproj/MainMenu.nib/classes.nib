@@ -1,0 +1,58 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {doExport = id; doSettings = id; typePopupChanged = id; }; 
+            CLASS = BatchExportController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoField = NSTextField; tableView = NSTableView; typePopup = NSPopUpButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                goBeginning = id; 
+                goBeginningAll = id; 
+                goPosterFrame = id; 
+                goPosterFrameAll = id; 
+                gotoTime = id; 
+                playAll = id; 
+                playAllFullScreen = id; 
+                setAllPBAll = id; 
+                setDoubleSize = id; 
+                setDoubledSize = id; 
+                setDoubledSizeAll = id; 
+                setFullscreen = id; 
+                setFullscreenSize = id; 
+                setHalfSize = id; 
+                setHalvedSize = id; 
+                setHalvedSizeAll = id; 
+                setLoop = id; 
+                setLoopAll = id; 
+                setOneToOne = id; 
+                setPBAll = id; 
+                setSpanning = id; 
+                stepBackwardAll = id; 
+                stepForwardAll = id; 
+                toggleInfoDrawer = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                playAll = id; 
+                setDoubleSize = id; 
+                setFullscreen = id; 
+                setFullscreenSize = id; 
+                setHalfSize = id; 
+                setOneToOne = id; 
+                toggleDrawer = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {movieView = QTMovieView; }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}
