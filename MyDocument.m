@@ -1156,7 +1156,7 @@ static MyDocument *m2 = NULL;
 	if( isProgrammatic ){
 		[[movieView window] setDelegate:self];
 	}
-#if 1
+#if 0
 	{ static char active = 0;
 		if( !active ){
 			active = 1;
@@ -1498,8 +1498,8 @@ static Boolean nothing( DialogPtr dialog, EventRecord *event, DialogItemIndex *i
 
 static pascal Boolean QTActionCallBack( MovieController mc, short action, void* params, long refCon )
 {  MyDocument *mydoc= (MyDocument*) refCon;
-#ifdef DEBUG
    const char *fname, *timestr;
+#ifdef DEBUG
    QTTime curTime = [[[mydoc getMovie] attributeForKey:QTMovieCurrentTimeAttribute] QTTimeValue];
 #endif
 	// step/scan handling: user needs to be able to catch a finished action, which is the next following

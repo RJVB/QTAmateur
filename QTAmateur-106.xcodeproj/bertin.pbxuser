@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Development;
+		activeBuildConfigurationName = Deployment;
 		activeExecutable = D676EF350BC3BE4A008693F8 /* QTAmateur */;
 		activeTarget = 8D15AC270486D014006FF6A4 /* QTAmateur */;
 		addToTargets = (
@@ -99,8 +99,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 359376128;
-			PBXWorkspaceStateSaveDate = 359376128;
+			PBXPerProjectTemplateStateSaveDate = 360883160;
+			PBXWorkspaceStateSaveDate = 360883160;
 		};
 		sourceControlManager = D676EF470BC3BE6A008693F8 /* Source Control */;
 		userBuildSettings = {
@@ -108,11 +108,11 @@
 	};
 	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {780, 23058}}";
-			sepNavSelRange = "{32159, 6}";
-			sepNavVisRange = "{31909, 623}";
+			sepNavIntBoundsRect = "{{0, 0}, {810, 23254}}";
+			sepNavSelRange = "{29361, 0}";
+			sepNavVisRange = "{29289, 571}";
 			sepNavVisRect = "{{0, 19307}, {809, 739}}";
-			sepNavWindowFrame = "{{738, 100}, {854, 778}}";
+			sepNavWindowFrame = "{{582, 100}, {854, 778}}";
 		};
 	};
 	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
