@@ -301,7 +301,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 398}, {235, 562}}</string>
+							<string>{{0, 237}, {235, 562}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -401,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D64B639B1582A43F00FCA20C</string>
+				<string>D621CE451588E4A5001200B6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D64B639C1582A43F00FCA20C</string>
+				<string>D621CE461588E4A5001200B6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -522,7 +522,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>360883297.91394198</real>
+	<real>361292965.695252</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -540,7 +540,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D6A5BD01129D234C005159EF</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Volumes/Debian/Users/bertin/work/src/MacOSX/QTAmateur/QTAmateur-106.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -582,8 +581,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -623,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D6A5BD01129D234C005159EF</string>
-				<string>D64B638C1582A3F600FCA20C</string>
+				<string>D621CE471588E4A5001200B6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
