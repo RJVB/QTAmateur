@@ -359,12 +359,15 @@
 		C2803301088E2F2900BF3877 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QTAmateur_Prefix.pch;
+				GCC_VERSION = org.macports.clang.3.3;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_CFLAGS = (
 					"-ftracer",
 					"-mcpu=G4",
@@ -372,6 +375,7 @@
 				OTHER_LDFLAGS = "-bind_at_load";
 				PREBINDING = NO;
 				PRODUCT_NAME = QTAmateur;
+				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};

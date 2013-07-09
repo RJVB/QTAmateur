@@ -296,12 +296,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>39</integer>
-									<integer>38</integer>
+									<integer>37</integer>
+									<integer>36</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 237}, {235, 562}}</string>
+							<string>{{0, 378}, {235, 562}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,7 +321,7 @@
 							<real>235</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>533 90 699 621 0 0 1440 878 </string>
+						<string>-738 176 699 621 -1280 100 1280 800 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -357,7 +358,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {442, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>533 90 699 621 0 0 1440 878 </string>
+								<string>-738 176 699 621 -1280 100 1280 800 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -377,7 +378,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {442, 575}}</string>
 								<key>RubberWindowFrame</key>
-								<string>533 90 699 621 0 0 1440 878 </string>
+								<string>-738 176 699 621 -1280 100 1280 800 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -401,9 +402,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D621CE451588E4A5001200B6</string>
+				<string>D67EF45B178595EF00B216CA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D621CE461588E4A5001200B6</string>
+				<string>D67EF45C178595EF00B216CA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -522,7 +523,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>361292965.695252</real>
+	<real>394630719.43662399</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -543,7 +544,7 @@
 		<string>/Volumes/Debian/Users/bertin/work/src/MacOSX/QTAmateur/QTAmateur-106.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>533 90 699 621 0 0 1440 878 </string>
+	<string>-738 176 699 621 -1280 100 1280 800 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -581,6 +582,8 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -620,7 +623,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D6A5BD01129D234C005159EF</string>
-				<string>D621CE471588E4A5001200B6</string>
+				<string>D67EF4521785957C00B216CA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

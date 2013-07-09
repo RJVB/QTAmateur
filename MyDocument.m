@@ -985,8 +985,8 @@ static unsigned int fullScreenViews= 0;
 		[self makeFullscreenView:style];
 	}
 
-	NSLog( @"Starting fullscreen playback self=%p%@ super=%p fMV=%p%@",
-		  self, self, super, fullscreenMovieView, fullscreenMovieView
+	NSLog( @"Starting fullscreen playback self=%p%@ fMV=%p%@",
+		  self, self,fullscreenMovieView, fullscreenMovieView
 	);
 	[fullscreenMovieView pplay:self];
 
@@ -997,8 +997,8 @@ static unsigned int fullScreenViews= 0;
 {
 	if(!inFullscreen) return;
 
-	NSLog( @"Ending fullscreen playback self=%p%@ super=%p fMV=%p%@ views=%u",
-		  self, self, super, fullscreenMovieView, fullscreenMovieView, fullScreenViews
+	NSLog( @"Ending fullscreen playback self=%p%@ fMV=%p%@ views=%u",
+		  self, self, fullscreenMovieView, fullscreenMovieView, fullScreenViews
 	);
 
 	if( fullScreenViews> 0 ){
